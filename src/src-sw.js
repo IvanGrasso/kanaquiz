@@ -1,3 +1,2 @@
-import { precacheAndRoute } from 'workbox-precaching';
+workbox.precaching.precacheAndRoute(self.__precacheManifest);
 
-precacheAndRoute(self.__WB_MANIFEST || []);
